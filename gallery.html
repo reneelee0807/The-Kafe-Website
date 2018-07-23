@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gallery | The Kafe -- Your Local Cafe</title>
+		<link rel="icon" href="img/logo.gif">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/responsive-nav.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<script src="js/responsive-nav.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<h1>The Kafe</h1>
+				<img id = "logo" src="img/logo.gif" alt="The Kafe">
+			</div>
+		</header>
+		<nav class="nav-collapse">
+				<ul class="inner" id = "nav"> 
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>	
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="ourBeans.html">Our Beans</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+					<li><a href="contactUs.html">Contact us</a></li>	
+				</ul>
+		</nav>
+		<main>
+			<div class="inner">
+				<div id = "introduction" class = "whiteSpace_top">
+					<p>The real thing is every bit as good as the photos. </p>
+					<p>Beautifully presented food backed up with wonderful tastes and flavours.
+					</p>
+					<div class="container">
+						<div class = "row">
+							<div class="col-sm img_container whiteSpace_bottom">
+								<div class="">
+									<img src="img/breakfast.jpg" alt="All day Breakfast" class="image">
+									<div class="overlay">
+										<div class="text">All day Breakfast</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-sm img_container  whiteSpace_bottom">
+								<div class="">
+									<img src="img/ultimate cheese platter.jpg" alt="Ultimate Cheese Platter" class="image">
+									<div class="overlay">
+										<div class="text">Ultimate Cheese Platter</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class = "row">							
+							<div class="col-sm img_container whiteSpace_bottom">
+								<div class="">
+									<img src="img/dinner.jpg" alt="‘Best Ever’ Fusilli" class="image">
+									<div class="overlay">
+										<div class="text">‘Best Ever’ Fusilli</div>
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm img_container whiteSpace_bottom">
+								<div class="">
+									<img src="img/waffles.jpg" alt="Waffles With Strawberry" class="image">
+									<div class="overlay">
+										<div class="text">Waffles With Strawberry</div>
+									</div>
+								</div>
+							</div>							
+						</div>										
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer >
+			<div class="inner">
+				<div id = "footer_contact_us">
+					<h3>Contact Us</h3>
+					<p>	Hours: Monday To Friday, 7.30AM - 10.30PM</p>
+					<p>	Hours: Saturday To Sunday, 8.30AM - 10.00PM</p>
+					<p>	Phone: <a href = "tel:033756061">03 375 6061</a></p>
+					<p>	Email: <a href = "mailto:info@thekafe.org.nz">info@thekafe.org.nz</a></p>
+					<p>&copy; The Kafe 2018  All Rights Reserved</p>
+					<p>The material displayed is not to be used without permission of the owner</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script>
+			var navigation = responsiveNav(".nav-collapse", {
+			insert: "before",
+			label: "&#8801;"
+			});
+		</script>
+		
+	</body>
+
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contact Us | The Kafe -- Your Local Cafe</title>
+		<link rel="icon" href="img/logo.gif">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/responsive-nav.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<script src="js/responsive-nav.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<h1>The Kafe</h1>
+				<img id = "logo" src="img/logo.gif" alt="The Kafe">
+			</div>
+		</header>
+		<nav class=" nav-collapse "> <!--!-->
+			<ul class="inner" id = "nav"> 
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>	
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="ourBeans.html">Our Beans</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+				<li><a href="contactUs.html">Contact us</a></li>	
+			</ul>
+		</nav>
+		<main>
+			<div class="inner">				
+				<div class = "flex_div">
+					<div class = "left_aside">
+					<h2 class = "section_heading">Book By Phone</h2>
+					<p class = "center_p">
+					Prefer to make your reservation via phone?
+					You can make a reservations by calling
+					</p>
+					<button class="btn btn-secondary btn-lg btn_center" onclick="document.location.href = 'tel:033756061'">03 375 6061</button>				
+					</div>
+					<div class = "right_aside">
+						<h2 class = "section_heading">Hours</h2>
+						<p class = "center_p">	Monday - Friday: 7.30AM - 10.30PM</p>
+						<p class = "center_p">	Saturday - Sunday: 8.30AM - 10.00PM</p>			
+					</div>
+				</div>
+			
+			
+				<div>
+					<div id = "introduction" class = "whiteSpace_top">
+					<h2 class = "section_heading">Reservation Form</h2>
+					
+					<p class = "center_p">To book a table please fill in the form as best you can, if you have any special requests be sure to make note of them too.
+					Please note we do not take bookings Saturday or Sunday.</p>
+					</div>
+					<form method="POST" action="mailto:bogus@bogus.com" class = "whiteSpace_bottom">
+					<div class="form-group">
+						<label for="titleInput">Title</label>
+						<input type="text" class="form-control" id="titleInput" placeholder="Enter your title">						
+					</div>
+					<div class="form-group">
+						<label for="firstName">First name*</label>
+						<input type="text" class="form-control" required id="firstName" placeholder="Enter your first name">				
+					</div>
+					<div class="form-group">
+						<label for="lastName">Last name*</label>
+						<input type="text" class="form-control" required id="lastName" placeholder="Enter your Last name">				
+					</div>			
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address*</label>
+						<input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>				
+					</div>
+					<div class="form-group">
+						<label for="date">Date*</label>
+						<input type="date" class="form-control" required id="date">			
+					</div>
+					<div class="form-group">
+						<label for="time">Time*</label>
+						<input type="time" class="form-control" required id="time">
+										
+					</div>					
+					<div class="form-group">
+						<label for="enquiry">Reservation Information</label>
+						<textarea name="enquiry" class="form-control" id="enquiry" required placeholder="Please enter your message here"></textarea>
+					</div>
+					<div class="form-group">
+						<p>Do you want to receive any latest news from us?</p>
+						<input type="radio" name="latest-news" id="latest-news-yes" value="yes">
+						<label for="latest-news-yes" class="option">Yes</label>
+						<input type="radio" name="latest-news" id="latest-news-no" value="no">
+						<label for="latest-news-no" class="option">No</label>
+						<br>
+					</div>
+					<input class="btn btn-secondary btn-lg btn_center" type="submit" value = "Book Now">
+					</form>
+					<div id="map" ></div>
+				</div>
+			</div>	
+			
+		</main>
+
+		<footer >
+			<div class="inner">
+				<div id = "footer_contact_us">
+					<h3>Contact Us</h3>
+					<p>	Hours: Monday To Friday, 7.30AM - 10.30PM</p>
+					<p>	Hours: Saturday To Sunday, 8.30AM - 10.00PM</p>
+					<p>	Phone: <a href = "tel:033756061">03 375 6061</a></p>
+					<p>	Email: <a href = "mailto:info@thekafe.org.nz">info@thekafe.org.nz</a></p>
+					<p>&copy; The Kafe 2018  All Rights Reserved</p>
+					<p>The material displayed is not to be used without permission of the owner</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script>
+			var navigation = responsiveNav(".nav-collapse", {
+			insert: "before",
+			label: "&#8801;"
+			});
+		</script>
+		<script>
+			function myMap() {
+			var mapOptions = {
+				center: new google.maps.LatLng(51.5, -0.12),
+				zoom: 10,
+				mapTypeId: google.maps.MapTypeId.HYBRID
+			}
+			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+		</script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+		
+	</body>
+
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Menu | The Kafe -- Your Local Cafe</title>
+		<link rel="icon" href="img/logo.gif">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/responsive-nav.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<script src="js/responsive-nav.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<h1>The Kafe</h1>
+				<img id = "logo" src="img/logo.gif" alt="The Kafe">
+			</div>
+		</header>
+			<nav class=" nav-collapse "> <!--!-->
+				<!--<div id="navbar" class="navbar-collapse collapse">	!-->
+					<ul class="inner" id = "nav"> 
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>	
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="ourBeans.html">Our Beans</a></li>
+						<li><a href="aboutUs.html">About Us</a></li>
+						<li><a href="contactUs.html">Contact us</a></li>	
+					</ul>
+				<!--</div>!-->
+			</nav>
+
+		<main>
+			<div class="inner">
+				<h2 class = "section_heading">MEALS</h2>
+				<div id = "introduction" class = "whiteSpace_top text_center">
+					<p>An amazing selection to keep to satisfied for Breakfast, Brunch or Lunch</p>
+				</div>
+				<div class="wrapper">
+					<p>Toast with seasonal jam and butter  $9.00</p>
+					<p>Honey maple roasted muesli, saffron poached pear, seasonal fruit, guava syrup, “Coyo” coconut milk yoghurt  $14.50</p>
+					<p>Coconut chia seed pudding, strawberries, pistachios, toasted coconut, crushed orange,
+						pineapple, lemon verbena raspberry sauce  $16.00</p>
+					<p>Ricotta blue berry hotcake, caramelised banana, toasted nuts,
+					seasonal berries, ricotta vanilla cream  $22.00</p>
+					<p>Steel cut oat porridge, poached organic apple, rhubarb, banana,
+					cardamom custard, chocolate caramel crumble  $15.50</p>
+					<p>Eggs your way with toast and tomato relish  $10.50</p>
+					<p>Chilli scrambled eggs, shiitake mushrooms, house smoked lemon ricotta,
+						sourdough toast  $21.50</p>
+					<p>Baked beans, chorizo, smoked tomato chilli sauce, poached eggs lime crema,
+						Turkish bread  $20.00</p>
+					<p>Roasted carrot salad, various beets, red Russian kale, poached eggs,
+					goats cheese cream, radish, multigrain toast  $22.00</p>
+					<p>House hot smoked salmon, sugar snap peas, crumbed egg, Asian greens,
+					roast peanuts, coconut tamarind caramel  $25.00</p>
+					<p>Little Pom's Benny, smoked bacon, cheddar buttermilk biscuits, avocado, charred corn,
+					coriander, poached eggs, smoked jalapeño lime hollandaise  $25.00
+					</p>
+					<p>Bowl of fries with tomato relish and mayo $8.50</p>
+					<h2 class = "section_heading">SIDES</h2>
+					<div id = "introduction" class = "whiteSpace_top text_center">
+						<p>Tasty accompaniments in addition to any meal</p>
+					</div>
+				</div>
+				<div class="wrapper">				
+					<p>Bacon $5.00</p>
+					<p>Toast $2.00</p>
+					<p>Seasonal greens $5.00</p>
+				</div>
+				<div class = "menu_button">
+					<a class="btn btn-secondary btn-lg" href = "src/menu.pdf" target="_blank" role="button">Download the menu</a>
+				</div>
+			</div>
+		</main>
+		<footer >
+			<div class="inner">
+				<div id = "footer_contact_us">
+					<h3>Contact Us</h3>
+					<p>	Hours: Monday To Friday, 7.30AM - 10.30PM</p>
+					<p>	Hours: Saturday To Sunday, 8.30AM - 10.00PM</p>
+					<p>	Phone: <a href = "tel:033756061">03 375 6061</a></p>
+					<p>	Email: <a href = "mailto:info@thekafe.org.nz">info@thekafe.org.nz</a></p>
+					<p>&copy; The Kafe 2018  All Rights Reserved</p>
+					<p>The material displayed is not to be used without permission of the owner</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script>
+			var navigation = responsiveNav(".nav-collapse", {
+			insert: "before",
+			label: "&#8801;"
+			});
+		</script>
+
+	</body>
+
+</html>

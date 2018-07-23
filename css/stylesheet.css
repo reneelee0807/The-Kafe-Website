@@ -1,0 +1,462 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+ 
+* {
+    box-sizing: border-box;
+}
+
+main { 
+    display: block;
+	background-color:white;
+}
+
+/*LAYOUT*/
+.inner {
+    width: 55em;
+    margin: 0 auto 1em auto;
+}
+
+header div{
+	display: flex;
+	align-item: center;
+	justify-content: space-between;
+}
+
+.section_heading{
+	text-align: center;
+	padding-top:1.5em;
+	font-family: Algerian;
+	font-size:2em;
+	text-transform: capitalize;
+}
+
+.text_center{
+	text-align: center;
+}
+
+.wrapper {
+	padding: 0 2em 0 2em;
+	max-width: 31em;
+	margin: 2em auto;
+}
+
+.wrapper p{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	text-align: center;
+	padding-bottom:1.5em;
+	font-size:1.3em;
+}
+.menu_button{
+	 text-align: center;
+	 padding-bottom:2em;
+}
+.btn-secondary{
+	border-color:#944743;
+	color:#000;
+	background-color:#fff;
+}
+.flex_div{
+	display: flex;
+	margin-top:1.5em;
+	margin-bottom:2em;
+}
+
+.right_aside{
+	flex-basis:32em;
+	order:2;
+	padding-left:14em;
+}
+
+.left_aside{
+	flex-basis: 22em;
+	order:1;
+	padding-right:4em;
+}
+
+.nav-collapse {
+	width: 55em;
+    margin: 0 auto 0 auto;
+}
+
+.center_p{
+	text-align: center;
+}
+
+#footer_contact_us a{
+	color: black;
+	text-decoration:underline
+}
+
+.btn_center{
+	display: flex;
+	margin: 0 auto;
+	margin-top:1em;
+}
+#nav{  
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#nav li{
+    display:inline;
+}
+#nav a{
+    display:inline-block;
+    padding:12px;
+	color:#000;
+	font-size:1.4em;
+	text-decoration:none;	
+}
+#nav a:hover{
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #662900;
+
+}
+
+.active{
+	text-decoration:underline;
+}
+
+body{
+	background-color:#E8C8AC;
+}
+
+nav{
+/* 	border-top: 2px solid #944743;
+	border-bottom: 2px solid #944743; */
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+}
+
+
+
+h1{
+	font-family:Algerian,Calisto MT ,Constantia;
+	font-weight:bold;
+	font-size: 4.5em;
+	color:#420606;
+}
+
+#logo{
+	width:6em;
+	height:6em;
+}
+
+#home {
+
+	background: url('home.jpg') ;
+	background-size: 100% 100%;	
+}	
+
+
+
+.home_img img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+	padding-top:0.5em;
+	width:100%;
+	margin-bottom:1em;
+	
+}
+
+.nav-toggle{
+	font-size:2em;
+	color: black;
+	/*text-align: left;*/
+	padding-left:10px;
+}
+
+#introduction p{
+	font-style:italic;
+	padding-bottom:0.5em;
+	font-size:1.4em;
+	text-align: center;
+}
+
+footer{
+	margin-top:1em;
+}
+
+#footer_contact_us h3{
+/*     border-top: 2px solid #944743;
+	border-bottom: 2px solid #944743; */
+	font-size:1.5em;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+	font-family: Algerian;
+}
+
+#footer_contact_us p{
+	padding-bottom:0.3em;
+}
+
+.whiteSpace_bottom{
+	padding-bottom: 2em;
+}	
+
+.whiteSpace_top{
+	padding-top:2em;
+}
+
+.description{
+	font-size:1.5em;
+	font-weight:bold;
+	color:#F0EDE5;
+}
+
+.col_image{
+	width:20em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row p{
+	width:20em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+	margin-top:1em;
+}
+
+.col-sm{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: #7b4b19d4;
+} */
+
+.img_container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 20em;
+  height: 20em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 21em;
+  width: 21em;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#a7bfdb;
+}
+
+.img_container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+	color: black;
+	font-size: 2em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.description_p{
+	font-size:1.1em;
+	text-align:center;
+	padding-bottom: 1.5em;
+}
+/* #copyright{
+	font-family:italic;
+} */
+	
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 65em){
+.inner, .nav-collapse, .nav-toggle {
+width: 40em;
+margin: 0 auto;
+}
+
+.nav-toggle{
+	/* width:100%; */
+	max-width:23em;
+	margin:0 auto;	
+}
+
+body{
+	width:100%;
+
+}
+
+header  div, footer div{
+	/* flex-direction: column; */
+	max-width:35em;
+	margin:0 auto;
+}
+
+.flex_div {
+	flex-direction: column;
+	max-width:35em;
+	margin:0 auto;
+}
+
+.right_aside{
+	flex-basis:2em;
+	padding-left:0;
+}
+
+.left_aside{
+	flex-basis: 2em;
+	padding-right:0em;
+}
+
+
+.nav-collapse {
+	flex-wrap: wrap;
+	margin:0 auto;
+}
+main {
+	flex-basis: auto;
+	padding-top:1em;
+}
+
+main img {
+	width:35em;
+}
+
+video{
+width:35em;
+}
+.col_image{
+	width:32em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+.row p{
+	width:29em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+	    display: block;
+}
+
+.image {
+  display: block;
+  width: 18em;
+  height: auto;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+	margin:0 auto;
+	height: 19em;
+	width: 19em;
+
+}
+
+}
+
+@media screen and (max-width: 40em) {
+    
+	
+.inner, .nav-collapse, .nav-toggle{
+	/* width:100%; */
+	max-width:20em;
+	margin:0 auto;	
+}
+
+.nav-collapse ul{
+	display:block;
+	padding:0;
+	
+}
+main {
+	flex-basis: auto;
+	/* padding:0 1em; */
+}
+	
+h1{
+	padding-top:0.8em;
+	font-size: 3em;
+
+}
+
+#nav a{
+	font-size:1em;
+}
+
+#nav li{
+    display:block;
+	text-align:left
+}	
+
+video{
+max-width:26em;
+}
+
+.col_image{
+	width:18em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row p{
+	width:16em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+		
+main img {
+	width:23em;
+}
+footer div{
+	max-width:20em;
+	margin:0 auto;
+}
+
+#logo{
+	width:5em;
+	height:5em;
+	padding-top:10px;
+}
+.col-sm{
+	margin:0;
+}
+.js .nav-collapse {
+
+  margin-left:0;
+}
+
+}

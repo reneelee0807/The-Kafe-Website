@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>About Us | The Kafe -- Your Local Cafe</title>
+		<link rel="icon" href="img/logo.gif">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/responsive-nav.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<script src="js/responsive-nav.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<h1>The Kafe</h1>
+				<img id = "logo" src="img/logo.gif" alt="The Kafe">
+			</div>
+		</header>
+		<nav class=" nav-collapse "> <!--!-->
+			<ul class="inner" id = "nav"> 
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>	
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="ourBeans.html">Our Beans</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+				<li><a href="contactUs.html">Contact us</a></li>	
+			</ul>
+		</nav>
+		<main>
+			<div class="inner">
+				<div id = "introduction" class = "whiteSpace_top">
+					<p>Here at The Kafe, we have, and always will, pride ourselves in serving the highest quality coffee.</p>
+					<p>	Our story had humble beginnings, starting with the opening of a small store in Christchurch. </p>
+					<p>	We had a single focus: provide exquisite coffee. </p>
+					<p>	The journey of your coffee begins with sourcing the finest Arabica beans from all over the planet. 
+					They are then carefully roasted to perfection by our Master Roasters, fresh every morning, to bring you the full-bodied, punchy flavour that has characterised Canterbury's favourite espresso. </p>
+					
+				<video class="embed-responsive embed-responsive-16by9 whiteSpace_bottom" controls>
+					<source  class="embed-responsive-item " src="video\aboutUs.mp4" type="video/mp4" >
+				</video>
+<!-- 				<div class="embed-responsive embed-responsive-16by9" controls>
+					<iframe class="embed-responsive-item whiteSpace_bottom" src="video/aboutUs.mp4" allowfullscreen autoplay=false ></iframe>
+
+				</div> -->
+			</div>
+
+		</main>
+
+		<footer >
+			<div class="inner">
+				<div id = "footer_contact_us">
+					<h3>Contact Us</h3>
+					<p>	Hours: Monday To Friday, 7.30AM - 10.30PM</p>
+					<p>	Hours: Saturday To Sunday, 8.30AM - 10.00PM</p>
+					<p>	Phone: <a href = "tel:033756061">03 375 6061</a></p>
+					<p>	Email: <a href = "mailto:info@thekafe.org.nz">info@thekafe.org.nz</a></p>
+					<p>&copy; The Kafe 2018  All Rights Reserved</p>
+					<p>The material displayed is not to be used without permission of the owner</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script>
+			var navigation = responsiveNav(".nav-collapse", {
+			insert: "before",
+			label: "&#8801;"
+			});
+		</script>
+		
+		
+	</body>
+
+
+</html>
